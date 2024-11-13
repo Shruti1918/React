@@ -1,0 +1,75 @@
+.schedule-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+
+    min-height: 100vh;
+
+    background: linear-gradient(to right, #816bb5, #6e28a0); /* Bright gradient background */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .schedule-container h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+  .schedule-container p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .schedule-form {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #ff6a88;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #d67eff;
+    transform: scale(1.05);
+  }
+  
+  .confirmation-message {
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 1.2rem;
+  }
+  

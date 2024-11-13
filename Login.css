@@ -1,0 +1,77 @@
+/* Apply the background image to the entire page */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/007/164/537/small/fingerprint-identity-sensor-data-protection-system-podium-hologram-blue-light-and-concept-free-vector.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  /* Style the form container */
+  .login-form-container {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Style the title */
+  .login-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff5733; /* Vibrant orange */
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Style the form */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style the form labels */
+  .login-form label {
+    margin: 10px 0 5px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Style the input fields */
+  .login-form input {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the submit button */
+  .login-form button {
+    background-color: #007bff; /* Bright blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3; /* Darker blue */
+    transform: scale(1.05);
+  }
+  
+  /* Style the placeholder text */
+  .login-form input::placeholder {
+    color: #aaa;
+    font-weight: bold;
+  }
+  
