@@ -1,22 +1,11 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./Home.css";
-
+import React from 'react';
 const Home = () => {
   return (
-    <div className="home-container">
-      <h1>Welcome to the Online Scheduler</h1>
-      <p>Book your appointments easily and quickly.</p>
-      <div className="home-buttons">
-        <Link to="/schedule-appointment">
-          <button className="schedule-button">Schedule an Appointment</button>
-        </Link>
-        <Link to="/view-schedules">
-          <button className="view-button">View My Schedule</button>
-        </Link>
-      </div>
+    <div>
+      <h1>Welcome to the Product Store</h1>
+      <p>Explore products from various categories and filter by price.</p>
     </div>
   );
 };
-
 export default Home;
+
